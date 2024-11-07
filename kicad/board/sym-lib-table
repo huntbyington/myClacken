@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "clacken")(type "KiCad")(uri "${KIPRJMOD}/footprints/Seeed_Studio.kicad_sym")(options "")(descr "Seeed Xiao"))
+  (lib (name "on-off")(type "KiCad")(uri "${KIPRJMOD}/footprints/on_off_switch_SSSS811101/SSSS811101.kicad_sym")(options "")(descr "On Off Switch"))
+)
