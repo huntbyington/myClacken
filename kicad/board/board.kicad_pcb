@@ -70,9 +70,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -6583,7 +6583,7 @@
 			(uuid "39fc5c6d-02d9-4a3d-9f9d-e3565e210371")
 		)
 		(pad "2" thru_hole circle
-			(at -3.262003 -2.54)
+			(at -3.262004 -2.54)
 			(size 0.8 0.8)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -13370,7 +13370,7 @@
 		)
 		(fp_line
 			(start 3.35 0.379999)
-			(end 3.350001 -0.380001)
+			(end 3.350002 -0.380001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -13379,7 +13379,7 @@
 			(uuid "dddf054e-eb1e-49ff-9a10-6dc261f22627")
 		)
 		(fp_line
-			(start -3.350001 0.380001)
+			(start -3.350002 0.380001)
 			(end -3.35 -0.379999)
 			(stroke
 				(width 0.127)
@@ -14504,6 +14504,22 @@
 		(layer "F.Cu")
 		(net 11)
 		(uuid "e4e5e1c3-6fea-42c9-8c72-c4ed88e3f35d")
+	)
+	(segment
+		(start 65.525297 -21.380914)
+		(end 63.682293 -19.53791)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "66bfd80d-a0fd-4926-aacd-a870058fe374")
+	)
+	(segment
+		(start 65.525297 -25.694049)
+		(end 65.525297 -21.380914)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "c0fabc6a-b6de-47bd-bc70-b3266d399e48")
 	)
 	(segment
 		(start 50.5 -39.5)
